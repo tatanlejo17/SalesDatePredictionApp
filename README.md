@@ -1,27 +1,64 @@
-# SalesDatePredictionApp
+# <p align="center">Sales Date Prediction - WebApp - Angular </p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
+## Descripción
 
-## Development server
+This project was generated with [Angular CLI] version 18.2.1 for the development of the interface of the Sales Date Prediction project.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Libraries used
 
-## Code scaffolding
+> [!NOTE]
+>
+> - Angular 18.2
+> - Bootstrap 5.3
+> - ngx-toastr 19.0
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Requisitos
 
-## Build
+Antes de ejecutar el proyecto, asegúrate de tener instalados los siguientes elementos:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+> - [Node js](https://nodejs.org/en/download/package-manager/current)
+> - [CLI Angular](https://v17.angular.io/cli)
 
-## Running unit tests
+## Libraries used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+> [!NOTE]
+> Angular 18.2
+> Bootstrap
 
-## Running end-to-end tests
+## Clonación del Repositorio
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clona el repositorio en tu máquina local:
 
-## Further help
+   ```bash
+   git clone https://github.com/tatanlejo17/SalesDatePredictionApp.git
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Configuración del Proyecto
+
+1. Instalar Dependencias:
+
+> [!IMPORTANT]
+> Ejecutar el siguiente comando en la raíz del proyecto, para restablecer librerías
+
+    ```bash
+    nom install
+    ```
+
+2. Configurar el archivo "enviroments.ts" con la url del Api Rest
+
+   ```ts
+   export const environments = {
+     production: false,
+     apiUrl: "http://localhost:5041/api",
+   };
+   ```
+
+## Ejecución del Proyecto
+
+1. Para iniciar el proyecto de Angular, usa el siguiente comando:
+
+   ```bash
+   ng serve
+   ```
+
+   Esto iniciará el servidor y podrás acceder a la aplicación en el navegador por la url http://localhost:4200

@@ -1,0 +1,29 @@
+* {
+    font-family: "SUSE", Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+}
+
+mat-toolbar {
+    height: 80px;
+    background-color: #261C2C;
+    color: aliceblue;
+}
+
+mat-toolbar span {
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 20px 20px;
+}
+
+.container {
+    padding: 40px 60px;
+}
+
+table {
+    width: 80%;
+}
+
+td, th {
+    width: 15%;
+}
