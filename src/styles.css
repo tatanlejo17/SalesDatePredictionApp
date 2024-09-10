@@ -5,3 +5,7 @@ body {
     font-family: "SUSE", Roboto, "Helvetica Neue", sans-serif;
     font-size: 14px;
 }
+
+.cdk-overlay-pane.mat-mdc-dialog-panel {
+    max-width: none !important;
+}

@@ -1,0 +1,16 @@
+.title-modal {
+    background-color: darkgreen;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+mat-form-field {
+    width: 90%;
+}
+
+.ship-name {
+    width: 100%;
+    padding: 0 20px;
+}

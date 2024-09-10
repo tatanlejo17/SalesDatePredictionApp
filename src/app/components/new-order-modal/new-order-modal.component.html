@@ -1,1 +1,37 @@
-<p>new-order-modal works!</p>
+<div mat-dialog-title class="title-modal">
+    <h1>{{ data.title }}</h1>
+</div>
+
+<form>
+    <div class="container">
+        <mat-grid-list cols="2" rowHeight="7:1">
+            <mat-grid-tile>
+                <mat-form-field appearance="outline" dense>
+                    <mat-label>Favorite food</mat-label>
+                    <mat-select name="food">
+                        <mat-option>Seleccione</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-form-field appearance="outline">
+                    <mat-label>Favorite food</mat-label>
+                    <mat-select name="food">
+                        <mat-option>Seleccione</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile colspan="2" rowspan="1">
+                <mat-form-field class="ship-name">
+                    <mat-label>Email</mat-label>
+                    <input type="email" matInput placeholder="Ex. pat@example.com">
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>4</mat-grid-tile>
+            <mat-grid-tile>6</mat-grid-tile>
+            <mat-grid-tile>7</mat-grid-tile>
+            <mat-grid-tile>8</mat-grid-tile>
+            <mat-grid-tile>9</mat-grid-tile>
+        </mat-grid-list>
+    </div>
+</form>
